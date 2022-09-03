@@ -3,9 +3,12 @@ import './WorkCard.css'
 import project1 from '../../assets/project1.png'
 import { NavLink } from 'react-router-dom'
 
-const WorkCard = () => {
+const Work = () => {
   return (
-    <div className="project-card">
+    <div className="work-container">
+        <h1 className='project-heading'>Projects</h1>
+        <div className="project-container">
+            <div className="project-card">
                 <img src={project1} alt="imageOfProject" />
                 <h2 className="project-title">Project Title</h2>
                 <div className="pro-details">
@@ -16,7 +19,9 @@ const WorkCard = () => {
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
   )
 }
 
-export default WorkCard
+export default Work
