@@ -20,7 +20,7 @@ const projectCardData = [
     {
         imgsrc: project3,
         title: "Honda Showroom",
-        text: "Honda is the world's largest manufacturer of two Wheelers, Recognized the world over as the symbol of Honda two wheelers, the 'Wings' arrived in Bangladesh.Are you planning to buy Honda Motorcycle?",
+        text: "Honda is the world's largest manufacturer of two wheelers, Recongnized the world over as the symbol of Honda two wheelers, the wings arrived in Bangladesh. Are you planning to buy a Honda Motorcycle?",
         view: "https://dazzling-pasteur-793213.netlify.app",
         source: "https://github.com/mostafizbappy158845?tab=repositories"
     },
