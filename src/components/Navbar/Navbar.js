@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import "./navbar.css"
 import {FaBars,FaTimes} from "react-icons/fa"
 
@@ -17,21 +17,21 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <Link to="/">
+        <NavLink to="/">
             <h1>Portfolio.</h1>
-        </Link>
+        </NavLink>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
             </li>
             <li>
-                <Link to="/project">Project</Link>
+                <NavLink to="/project">Project</NavLink>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <NavLink to="/about">About</NavLink>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
             </li>
             
             

@@ -10,9 +10,10 @@ const WorkCard = (props) => {
                 <div className="pro-details" title={props.text}>
                     <p>{props.text.length > 90 ? props.text.slice(0,90) + ' ...' : props.text}</p>
                     <div className="pro-btns">
-                        <NavLink to={props.view} className="btn">View</NavLink>
-                        {/* <a href={props.view} target className="btn" >View</a> */}
-                        <NavLink to={props.source} className="btn">Source</NavLink>
+                        {/* <NavLink to={props.view} className="btn">View</NavLink> */}
+                        <a href={props.view}  className="btn" >View</a>
+                        <a href={props.source}  className="btn" >Source</a>
+                        {/* <NavLink to={props.source} className="btn">Source</NavLink> */}
                     </div>
                 </div>
             </div>
